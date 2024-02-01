@@ -1,2 +1,5 @@
-package main.java.proxy;public interface RealSubject {
+package main.java.proxy;
+
+public interface RealSubject {
+    void request();
 }

@@ -1,2 +1,5 @@
-package main.java.abstractFabric.checkboxes;public interface CheckBox {
+package main.java.abstractFabric.checkboxes;
+
+public interface CheckBox {
+    void check();
 }

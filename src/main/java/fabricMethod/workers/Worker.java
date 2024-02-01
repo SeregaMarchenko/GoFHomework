@@ -1,2 +1,5 @@
-package main.java.fabricMethod.workers;public interface Worker {
+package main.java.fabricMethod.workers;
+
+public interface Worker {
+    String work();
 }
