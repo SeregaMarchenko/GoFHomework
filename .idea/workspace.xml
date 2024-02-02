@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75c9a17a-ad7c-47b0-a692-97acdb1c764a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFHomework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFabric/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFabric/buttons/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFabric/buttons/MacButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFabric/buttons/WindowsButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFabric/checkboxes/CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFabric/checkboxes/MacCheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFabric/checkboxes/WindowsCheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFabric/fabrics/GUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFabric/fabrics/MacGUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFabric/fabrics/WindowsGUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builder/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fabricMethod/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fabricMethod/departments/DayDepartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fabricMethod/departments/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fabricMethod/departments/NightDepartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fabricMethod/workers/DayWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fabricMethod/workers/NightWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fabricMethod/workers/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/ConcretePrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/RealSubjectImpl.java" afterDir="false" />
+    <list default="true" id="75c9a17a-ad7c-47b0-a692-97acdb1c764a" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/IChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/MessageReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/TextChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorater/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorater/builders/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorater/builders/BuilderCutter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorater/builders/BuilderPaver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorater/skills/InstallerBuildSkill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorater/skills/ManageBuildSkill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorater/skills/MoverBuildSkill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/ControlSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/ElectricitySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/GasSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facade/WaterSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,16 +50,43 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/DELL/OneDrive/Рабочий стол/K/GoFHomework"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.main.java.fabricMethod.Main">
+  <component name="RunManager" selected="Application.main.java.decorater.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.builder.Main" />
       <module name="GoFHomework" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.java.adapter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.adapter.Main" />
+      <module name="GoFHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.java.decorater.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.decorater.Main" />
+      <module name="GoFHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.decorater.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,8 +107,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.java.facade.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.facade.Main" />
+      <module name="GoFHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main.java.decorater.Main" />
+        <item itemvalue="Application.main.java.facade.Main" />
+        <item itemvalue="Application.main.java.adapter.Main" />
         <item itemvalue="Application.main.java.fabricMethod.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -109,8 +138,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706712420013</updated>
-      <workItem from="1706712421540" duration="4447000" />
+      <workItem from="1706712421540" duration="5554000" />
+      <workItem from="1706868687143" duration="2245000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1706798178639</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706798178639</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,5 +164,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
